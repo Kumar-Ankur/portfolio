@@ -49,7 +49,7 @@ const ContactView = () => {
       .then((response) => response.json())
       .then((resp) => {
         if (resp.smtp_check) {
-          fetch("/send", {
+          fetch("https://mailportfolioserver.herokuapp.com/send", {
             method: "POST",
             body: JSON.stringify(payload),
             headers: {
