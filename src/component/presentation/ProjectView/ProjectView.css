@@ -1,0 +1,221 @@
+.project_container {
+    width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  background: linear-gradient(to right, rgb(45,84,94,.3), rgb(18,52,59,0.6));
+}
+
+.project_box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 4.5rem;
+    transition: 1s ease all;
+    width: 50%;
+    max-width: 900px;
+    font-family: "AccoladeTOTMed W01 Regular";
+    color: black;
+}
+
+.project_content {
+    display: flex;
+    height: 35vh;
+    margin-top: 1.5rem;
+    margin-left: -4rem;
+    width: 60vw;
+    justify-content: center;
+}
+
+.project_1 {
+    width: 50%;
+    background-image: url('../../../assets/hotel.PNG');
+    margin-right: 1rem;
+    cursor: pointer;
+    background-size: cover;
+    box-shadow: 5px 10px #888888;
+    transition: ease-in-out 1s all;
+}
+
+.project_1:hover {
+    transform: translateY(-1rem) ;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project_2 {
+    width: 50%;
+    background-image: url('../../../assets/netflix.PNG');
+    cursor: pointer;
+    background-size: cover;
+    box-shadow: 5px 10px #888888;
+    transition: ease-in-out 1s all;
+}
+
+.project_2:hover {
+    transform: translateY(-1rem) ;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project_3 {
+    width: 33.3%;
+    background-image: url('../../../assets/game.PNG');
+    margin-right: 1rem;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 5px 10px #888888;
+    transition: ease-in-out 1s all;
+}
+
+.project_3:hover {
+    transform: translateY(-1rem) ;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project_4 {
+    width: 33.3%;
+    background-image: url('../../../assets/list.PNG');
+    margin-right: 1rem;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 5px 10px #888888;
+    transition: ease-in-out 1s all;
+}
+
+.project_4:hover {
+    transform: translateY(-1rem) ;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project_5 {
+    width: 33.3%;
+    background-image: url('../../../assets/calc.PNG');
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 5px 10px #888888;
+    transition: ease-in-out 1s all;
+}
+
+.project_5:hover {
+    transform: translateY(-1rem) ;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.modal {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    animation: containerAnimation 0.8s;
+    transition: all 1s ease-in-out;
+    
+  }
+
+  @keyframes containerAnimation {
+    0% {
+      top: -10rem;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  .modal-content_1, .modal-content_2, .modal-content_3,  .modal-content_4, .modal-content_5 {
+    background-color: #fefefe;
+    margin-top: 10rem;
+    padding: 20px;
+    width: 100%;
+    height: calc(100vh - 10rem);
+    position: relative;
+    background-size: cover;
+    background: linear-gradient(90deg, #000 55%, rgba(0,0,0,0.733), transparent),url('../../../assets/hotel.PNG');
+  }
+
+  .modal-content_2 {
+    background: linear-gradient(90deg, #000 55%, rgba(0,0,0,0.733), transparent),url('../../../assets/netflix.PNG');
+  }
+
+  .modal-content_3 {
+    background: linear-gradient(90deg, #000 55%, rgba(0,0,0,0.733), transparent),url('../../../assets/game.PNG'); 
+  }
+
+  .modal-content_4 {
+    background: linear-gradient(90deg, #000 55%, rgba(0,0,0,0.733), transparent),url('../../../assets/list.PNG'); 
+  }
+
+  .modal-content_5 {
+    background: linear-gradient(90deg, #000 55%, rgba(0,0,0,0.733), transparent),url('../../../assets/calc.PNG'); 
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    right: 5rem;
+    color: white;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal_title {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .modal__overview {
+    width: 90%;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 4rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    align-items: center;
+  }
+  
+  .modal_btn_red {
+    background-color: #f80616de;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    transition: all 0.2s;
+    margin-top: 3rem;
+  }
+  
+  .modal_btn_list {
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 0.5px solid #7a7a7a;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    transition: all 0.2s;
+  }

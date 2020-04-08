@@ -1,0 +1,87 @@
+.main_container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    transition: ease-in-out 1s all;
+}
+.topbar_container {
+    position: absolute;
+    background: linear-gradient(to right, rgb(45,84,94,.7), rgb(18,52,59,0.9)), url('../../../assets/macbook.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    transition: ease-in-out 1s all;
+
+}
+
+.content {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    transition: ease-in-out 1s all; 
+}
+
+.content_details {
+    position: absolute;
+    width: 40rem;
+    height: 20rem;
+    top: 22rem;
+    left: 25rem;
+    text-align: center;
+}
+
+.text_style {
+    color: white;
+    font-family: "AccoladeTOTMed W01 Regular";
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-weight: normal;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.wrapper {
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    transition: ease-in-out 1s all;
+}
+
+path {
+    stroke: #fff;
+    fill: #fff;
+    stroke-dasharray: 1500;
+    opacity: 10;
+    animation: animate 3s cubic-bezier(.17,.67,.83,.67);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 1500;
+    }
+
+    30% {
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 1500;
+    }
+
+    90% {
+        fill: rgba(255, 255, 255,0);
+    }
+
+    100% {
+        opacity: 10;
+        fill: rgba(255, 255, 255,1);
+        stroke-dashoffset: 0;
+    }
+}

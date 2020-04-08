@@ -1,0 +1,109 @@
+.overlay_container {
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    z-index: 10;
+  }
+  
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 0.8rem;
+    left: 0.5rem;
+    z-index: 100;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  #menuToggle a {
+    text-decoration: none;
+    color: #232323;
+  
+    transition: color 0.3s ease;
+  }
+  
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+  
+    cursor: pointer;
+  
+    opacity: 0;
+    z-index: 2;
+  
+    -webkit-touch-callout: none;
+  }
+  
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+  text-decoration: none;
+    background: white;
+    border-radius: 3px;
+  
+    z-index: 1;
+  
+    transform-origin: 4px 0px;
+  
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    transition: ease-in-out 1s all;
+  }
+  
+  .overlay span {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    letter-spacing: 7px;
+    line-height: 2.5;
+    font-family: "AccoladeTOTMed W01 Regular";
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .overlay span:hover,
+  .overlay span:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+  }

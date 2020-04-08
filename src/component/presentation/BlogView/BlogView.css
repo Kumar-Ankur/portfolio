@@ -1,0 +1,111 @@
+.blog_container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  background: #e4e4e4;
+}
+
+.blog_box {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 4.5rem;
+  transition: 1s ease all;
+  width: 50%;
+  max-width: 900px;
+  font-family: "AccoladeTOTMed W01 Regular";
+  color: black;
+}
+
+.blog_content {
+  display: flex;
+  height: 40vh;
+  margin-top: 1.5rem;
+  width: 60vw;
+  justify-content: center;
+  margin-left: -4rem;
+}
+
+.blog_1 {
+  width: 50%;
+  background-image: url("../../../assets/blog1.PNG");
+  margin-right: 1rem;
+  cursor: pointer;
+  background-size: cover;
+  box-shadow: 5px 10px #888888;
+  transition: ease-in-out 1s all;
+}
+
+.blog_1:hover {
+  transform: scale(1.2);
+  margin-right: 3rem;
+  background: radial-gradient(at 90% 0, black, transparent 70%),
+    linear-gradient(90deg, black, transparent 100%) bottom,
+    url("../../../assets/blog1.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.blog_2 {
+  width: 50%;
+  background-image: url("../../../assets/blog2.PNG");
+  margin-right: 1rem;
+  cursor: pointer;
+  background-size: cover;
+  box-shadow: 5px 10px #888888;
+  transition: ease-in-out 1s all;
+}
+
+.blog_2:hover {
+  transform: scale(1.2);
+  margin-left: 3rem;
+  background: radial-gradient(at 90% 0, black, transparent 70%),
+    linear-gradient(90deg, black, transparent 100%) bottom,
+    url("../../../assets/blog2.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.blog_3 {
+  width: 50%;
+  background-image: url("../../../assets/blog3.PNG");
+  margin-right: .5rem;
+  cursor: pointer;
+  background-size: cover;
+  box-shadow: 5px 10px #888888;
+  transition: ease-in-out 1s all;
+  margin-top: 2rem;
+}
+
+.blog_3:hover {
+  transform: scale(1.2);
+  margin-left: 3rem;
+  background: radial-gradient(at 90% 0, black, transparent 70%),
+    linear-gradient(90deg, black, transparent 100%) bottom,
+    url("../../../assets/blog3.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.button_style {
+  width: 7rem;
+  height: 3rem;
+  background: linear-gradient(
+    to right,
+    rgb(45, 84, 94, 0.7),
+    rgb(18, 52, 59, 0.9)
+  );
+  top: 12rem;
+  position: relative;
+}

@@ -1,0 +1,68 @@
+.about_container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  background: #e4e4e4;
+}
+
+.about_box {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 4.5rem;
+  transition: 1s ease all;
+  width: 50%;
+  max-width: 900px;
+  font-family: "AccoladeTOTMed W01 Regular";
+  color: black;
+}
+
+.about_content {
+    display: flex;
+    height: 40vh;
+    margin-top: 1.5rem;
+    width: 60vw;
+    justify-content: center;
+    margin-left: -4rem;
+}
+
+.about_content_1 {
+    width: 33.3%;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background: rgb(45,84,94);
+}
+
+.about_heading {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+}
+
+.about_desc {
+    position: absolute;
+    top: 65%;
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+}
+
+.icon_style {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 1.3rem;
+    left: 1.5rem;
+}
