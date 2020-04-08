@@ -9,7 +9,7 @@ import ContactView from './component/presentation/ContactView/ContactView';
 import "./styles/index.css";
 
 ReactDOM.render(
-  <Router>
+  <Router basename={`${process.env.PUBLIC_URL}/`}>
     <Route exact path="/" component={HomeView} />
     <Route path='/about' component={AboutView} />
     <Route path="/project" component={ProjectView} />

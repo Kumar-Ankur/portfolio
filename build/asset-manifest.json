@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kumarankur.in/static/css/main.80c254ac.chunk.css",
-    "main.js": "/kumarankur.in/static/js/main.ffa0872b.chunk.js",
-    "main.js.map": "/kumarankur.in/static/js/main.ffa0872b.chunk.js.map",
-    "runtime-main.js": "/kumarankur.in/static/js/runtime-main.e7fe60ac.js",
-    "runtime-main.js.map": "/kumarankur.in/static/js/runtime-main.e7fe60ac.js.map",
-    "static/js/2.581391da.chunk.js": "/kumarankur.in/static/js/2.581391da.chunk.js",
-    "static/js/2.581391da.chunk.js.map": "/kumarankur.in/static/js/2.581391da.chunk.js.map",
-    "index.html": "/kumarankur.in/index.html",
-    "precache-manifest.7ac062d1a92637bf36822ea6446f1a73.js": "/kumarankur.in/precache-manifest.7ac062d1a92637bf36822ea6446f1a73.js",
-    "service-worker.js": "/kumarankur.in/service-worker.js",
-    "static/css/main.80c254ac.chunk.css.map": "/kumarankur.in/static/css/main.80c254ac.chunk.css.map",
-    "static/js/2.581391da.chunk.js.LICENSE.txt": "/kumarankur.in/static/js/2.581391da.chunk.js.LICENSE.txt",
-    "static/media/BlogView.css": "/kumarankur.in/static/media/blog3.bbaf9f35.PNG",
-    "static/media/ProjectView.css": "/kumarankur.in/static/media/netflix.c8ca000f.PNG",
-    "static/media/TopBarView.css": "/kumarankur.in/static/media/macbook.1dcb14c7.png"
+    "main.css": "/portfolio/static/css/main.e75d1fff.chunk.css",
+    "main.js": "/portfolio/static/js/main.1d260c09.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1d260c09.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
+    "static/js/2.581391da.chunk.js": "/portfolio/static/js/2.581391da.chunk.js",
+    "static/js/2.581391da.chunk.js.map": "/portfolio/static/js/2.581391da.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.8c6693fe2db5b81a2e3b8f8415111c90.js": "/portfolio/precache-manifest.8c6693fe2db5b81a2e3b8f8415111c90.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.e75d1fff.chunk.css.map": "/portfolio/static/css/main.e75d1fff.chunk.css.map",
+    "static/js/2.581391da.chunk.js.LICENSE.txt": "/portfolio/static/js/2.581391da.chunk.js.LICENSE.txt",
+    "static/media/BlogView.css": "/portfolio/static/media/blog3.bbaf9f35.PNG",
+    "static/media/ProjectView.css": "/portfolio/static/media/netflix.c8ca000f.PNG",
+    "static/media/TopBarView.css": "/portfolio/static/media/macbook.1dcb14c7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7fe60ac.js",
+    "static/js/runtime-main.b37861ed.js",
     "static/js/2.581391da.chunk.js",
-    "static/css/main.80c254ac.chunk.css",
-    "static/js/main.ffa0872b.chunk.js"
+    "static/css/main.e75d1fff.chunk.css",
+    "static/js/main.1d260c09.chunk.js"
   ]
 }
