@@ -1,6 +1,6 @@
 import React from "react";
 import "./FullScreenOverlay.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const FullScreenOverlay = () => {
   const closeSilder = () => {
@@ -9,6 +9,12 @@ const FullScreenOverlay = () => {
     }
     if (document.getElementById("menuToggle")) {
       document.getElementById("menuToggle").style.display = "block";
+    }
+    if (document.querySelectorAll(".overlay_container")) {
+      const nodeList = document.querySelectorAll(".overlay_container");
+      for (let i = 0; i < nodeList.length; i++) {
+        nodeList[i].style.display = "block";
+      }
     }
   };
 
@@ -19,6 +25,12 @@ const FullScreenOverlay = () => {
     if (document.getElementById("menuToggle")) {
       document.getElementById("menuToggle").style.display = "none";
     }
+    if (document.querySelectorAll(".overlay_container")) {
+      const nodeList = document.querySelectorAll(".overlay_container");
+      for (let i = 0; i < nodeList.length; i++) {
+        nodeList[i].style.display = "none";
+      }
+    }
   };
   return (
     <>
@@ -28,19 +40,19 @@ const FullScreenOverlay = () => {
         </a>
         <div className="overlay-content">
           <Link style={{ textDecoration: "none" }} to="/">
-          <span>Home</span>
+            <span>Home</span>
           </Link>
           <Link style={{ textDecoration: "none" }} to="/about">
-          <span>About Me</span>
+            <span>About Me</span>
           </Link>
           <Link style={{ textDecoration: "none" }} to="/project">
-          <span>Projects</span>
+            <span>Projects</span>
           </Link>
           <Link style={{ textDecoration: "none" }} to="/blog">
-          <span>Blogs</span>
+            <span>Blogs</span>
           </Link>
           <Link style={{ textDecoration: "none" }} to="/contact">
-          <span>Contact Me</span>
+            <span>Contact Me</span>
           </Link>
         </div>
       </div>

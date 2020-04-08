@@ -41,7 +41,7 @@ const ContactView = () => {
       email: email,
       message: message,
     };
-    const CHECK_EMAIL_API = "http://apilayer.net/api/check?";
+    const CHECK_EMAIL_API = "https://apilayer.net/api/check?";
     const ACCESS_KEY = "2a06540672198270e23371cbce03435a";
 
     const URL = `${CHECK_EMAIL_API}access_key=${ACCESS_KEY}&email=${email}&smtp=1&format=1`;
@@ -49,7 +49,7 @@ const ContactView = () => {
       .then((response) => response.json())
       .then((resp) => {
         if (resp.smtp_check) {
-          fetch("http://localhost:3001/send", {
+          fetch("/send", {
             method: "POST",
             body: JSON.stringify(payload),
             headers: {
@@ -94,7 +94,7 @@ const ContactView = () => {
         <div className="contact_box">
           <h1>CONTACT ME</h1>
           <p>{statusMessage}</p>
-          <form id="contact-form" method="POST">
+          <form id="contact-form">
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input
@@ -143,11 +143,27 @@ const ContactView = () => {
             ) : null}
           </form>
           <div className="follow">
-              Follow me on:
-              <span className="social_icon"><FaGithub /></span>
-              <span className="social_icon"><FaLinkedinIn /></span>
-              <span className="social_icon"><FaFacebookSquare /></span>
-              <span className="social_icon"><FaMedium /></span>
+            Follow me on:
+            <span className="social_icon">
+              <a href="https://github.com/Kumar-Ankur" target="_blank">
+                <FaGithub />
+              </a>
+            </span>
+            <span className="social_icon">
+              <a href="https://www.linkedin.com/in/kumar-ankur-696026b7/" target="_blank">
+                <FaLinkedinIn />
+              </a>
+            </span>
+            <span className="social_icon">
+              <a href="https://www.facebook.com/profile.php?id=100002341914094" target="_blank">
+                <FaFacebookSquare />
+              </a>
+            </span>
+            <span className="social_icon">
+              <a href="https://medium.com/@akakankur81" target="_blank">
+                <FaMedium />
+              </a>
+            </span>
           </div>
         </div>
       </div>
