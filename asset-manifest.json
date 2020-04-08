@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e75d1fff.chunk.css",
-    "main.js": "/portfolio/static/js/main.1d260c09.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1d260c09.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
-    "static/js/2.581391da.chunk.js": "/portfolio/static/js/2.581391da.chunk.js",
-    "static/js/2.581391da.chunk.js.map": "/portfolio/static/js/2.581391da.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.8c6693fe2db5b81a2e3b8f8415111c90.js": "/portfolio/precache-manifest.8c6693fe2db5b81a2e3b8f8415111c90.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.e75d1fff.chunk.css.map": "/portfolio/static/css/main.e75d1fff.chunk.css.map",
-    "static/js/2.581391da.chunk.js.LICENSE.txt": "/portfolio/static/js/2.581391da.chunk.js.LICENSE.txt",
-    "static/media/BlogView.css": "/portfolio/static/media/blog3.bbaf9f35.PNG",
-    "static/media/ProjectView.css": "/portfolio/static/media/netflix.c8ca000f.PNG",
-    "static/media/TopBarView.css": "/portfolio/static/media/macbook.1dcb14c7.png"
+    "main.css": "/static/css/main.dccb2e2a.chunk.css",
+    "main.js": "/static/js/main.54aa7e8e.chunk.js",
+    "main.js.map": "/static/js/main.54aa7e8e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eb07c764.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eb07c764.js.map",
+    "static/js/2.581391da.chunk.js": "/static/js/2.581391da.chunk.js",
+    "static/js/2.581391da.chunk.js.map": "/static/js/2.581391da.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e13d491f0f4501164875dc273b65eb68.js": "/precache-manifest.e13d491f0f4501164875dc273b65eb68.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dccb2e2a.chunk.css.map": "/static/css/main.dccb2e2a.chunk.css.map",
+    "static/js/2.581391da.chunk.js.LICENSE.txt": "/static/js/2.581391da.chunk.js.LICENSE.txt",
+    "static/media/BlogView.css": "/static/media/blog3.bbaf9f35.PNG",
+    "static/media/ProjectView.css": "/static/media/netflix.c8ca000f.PNG",
+    "static/media/TopBarView.css": "/static/media/macbook.1dcb14c7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b37861ed.js",
+    "static/js/runtime-main.eb07c764.js",
     "static/js/2.581391da.chunk.js",
-    "static/css/main.e75d1fff.chunk.css",
-    "static/js/main.1d260c09.chunk.js"
+    "static/css/main.dccb2e2a.chunk.css",
+    "static/js/main.54aa7e8e.chunk.js"
   ]
 }
