@@ -19,6 +19,15 @@
   color: black;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .about_box {
+    padding-top: 2rem;
+  }
+}
+
 .about_content {
     display: flex;
     height: 40vh;
@@ -26,6 +35,17 @@
     width: 60vw;
     justify-content: center;
     margin-left: -4rem;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .about_content {
+    margin-top: 0;
+    margin-left: -5rem;
+    width: 90vw;
+  }
 }
 
 .about_content_1 {
@@ -53,6 +73,16 @@
     margin-top: 1.3rem;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .about_heading {
+    font-size: 1rem;
+    width: 100vw;
+  }
+}
+
 .about_desc {
     position: absolute;
     top: 65%;
@@ -60,9 +90,31 @@
     margin-top: 1.3rem;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .about_desc {
+    line-height: 1.7;
+    top: 60%;
+    margin-left: 1rem;
+    margin-top: 1.3rem;
+  }
+}
+
 .icon_style {
     position: absolute;
     font-size: 1.5rem;
     top: 1.3rem;
     left: 1.5rem;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .icon_style {
+    font-size: 1.3rem;
+    top: 1rem;
+  }
 }

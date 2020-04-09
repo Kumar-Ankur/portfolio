@@ -6,6 +6,15 @@
   background: linear-gradient(to right, black, #e4e4e4);
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .contact_container {
+    height: auto;
+  }
+}
+
 .contact_box {
   margin-left: auto;
   margin-right: auto;
@@ -17,6 +26,17 @@
   max-width: 900px;
   font-family: "AccoladeTOTMed W01 Regular";
   color: white;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .contact_box {
+    margin-left: 1.5rem;
+    margin-right: 0;
+    width: 90vw;
+  }
 }
 
 .btnStyle {

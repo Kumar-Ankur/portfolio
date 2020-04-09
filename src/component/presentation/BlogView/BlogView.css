@@ -6,6 +6,15 @@
   background: #e4e4e4;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .blog_container {
+    height: auto;
+  }
+}
+
 .blog_box {
   margin-left: auto;
   margin-right: auto;
@@ -19,6 +28,17 @@
   color: black;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .blog_box {
+    margin-left: 1.5rem;
+    margin-right: 0;
+    width: 90vw;
+  }
+}
+
 .blog_content {
   display: flex;
   height: 40vh;
@@ -26,6 +46,16 @@
   width: 60vw;
   justify-content: center;
   margin-left: -4rem;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .blog_content {
+    margin-left: 0rem;
+    width: 90vw;
+  }
 }
 
 .blog_1 {
@@ -83,6 +113,15 @@
   box-shadow: 5px 10px #888888;
   transition: ease-in-out 1s all;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .blog_3 {
+    width: 100%;
+  }
 }
 
 .blog_3:hover {

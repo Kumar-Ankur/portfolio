@@ -5,6 +5,7 @@
     overflow: hidden;
     transition: ease-in-out 1s all;
 }
+
 .topbar_container {
     position: absolute;
     background: linear-gradient(to right, rgb(45,84,94,.7), rgb(18,52,59,0.9)), url('../../../assets/macbook.png');
@@ -33,6 +34,16 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .content_details {
+      top: 22rem;
+      left: -4rem;
+  }
+}
+
 .text_style {
     color: white;
     font-family: "AccoladeTOTMed W01 Regular";
@@ -46,12 +57,31 @@
     margin-top: 1rem;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .text_style {
+      font-size: 1.4rem;
+  }
+}
+
 .wrapper {
     position: absolute;
     left: 40%;
     transform: translate(-50%, -50%);
     width: 40vw;
     transition: ease-in-out 1s all;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .wrapper {
+      width: 90vw;
+      left: 39%;
+  }
 }
 
 path {
