@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.35b3dfda.chunk.css",
+    "main.css": "/static/css/main.c968f17f.chunk.css",
     "main.js": "/static/js/main.46683cb7.chunk.js",
     "main.js.map": "/static/js/main.46683cb7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb07c764.js",
@@ -8,18 +8,18 @@
     "static/js/2.581391da.chunk.js": "/static/js/2.581391da.chunk.js",
     "static/js/2.581391da.chunk.js.map": "/static/js/2.581391da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0ca82881b9712c84bcd7fabf5aaaf057.js": "/precache-manifest.0ca82881b9712c84bcd7fabf5aaaf057.js",
+    "precache-manifest.91eb92fae1e42fdb305ba4c65ab07e7e.js": "/precache-manifest.91eb92fae1e42fdb305ba4c65ab07e7e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.35b3dfda.chunk.css.map": "/static/css/main.35b3dfda.chunk.css.map",
+    "static/css/main.c968f17f.chunk.css.map": "/static/css/main.c968f17f.chunk.css.map",
     "static/js/2.581391da.chunk.js.LICENSE.txt": "/static/js/2.581391da.chunk.js.LICENSE.txt",
-    "static/media/BlogView.css": "/static/media/blog3.bbaf9f35.PNG",
-    "static/media/ProjectView.css": "/static/media/netflix.c8ca000f.PNG",
+    "static/media/BlogView.css": "/static/media/blog3.f088ccfc.PNG",
+    "static/media/ProjectView.css": "/static/media/netflix.b91e0bf2.PNG",
     "static/media/TopBarView.css": "/static/media/macbook.1dcb14c7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eb07c764.js",
     "static/js/2.581391da.chunk.js",
-    "static/css/main.35b3dfda.chunk.css",
+    "static/css/main.c968f17f.chunk.css",
     "static/js/main.46683cb7.chunk.js"
   ]
 }
