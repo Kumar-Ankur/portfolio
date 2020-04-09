@@ -34,8 +34,14 @@
     text-align: center;
 }
 
+@media only screen and (min-device-width : 411px) and (max-device-width : 736px) {
+    .content_details {
+      top: 22rem;
+        left: -2.5rem;
+    }
+  }
+
 @media only screen and (max-width: 949px) and (min-width: 550px),
-  only screen and (max-width: 549px) and (min-width: 400px),
   only screen and (max-width: 399px) and (min-width: 350px),
   only screen and (max-width: 349px) {
   .content_details {
@@ -55,6 +61,14 @@
     animation-fill-mode: forwards; 
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+    .text_style {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 949px) and (min-width: 550px),

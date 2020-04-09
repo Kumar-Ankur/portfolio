@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d771b5b4.chunk.css",
+    "main.js": "/static/js/main.aa56446f.chunk.js",
+    "main.js.map": "/static/js/main.aa56446f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eb07c764.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eb07c764.js.map",
+    "static/js/2.1e807c69.chunk.js": "/static/js/2.1e807c69.chunk.js",
+    "static/js/2.1e807c69.chunk.js.map": "/static/js/2.1e807c69.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d7e0c532ffa97109efa51bddce16b89f.js": "/precache-manifest.d7e0c532ffa97109efa51bddce16b89f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d771b5b4.chunk.css.map": "/static/css/main.d771b5b4.chunk.css.map",
+    "static/js/2.1e807c69.chunk.js.LICENSE.txt": "/static/js/2.1e807c69.chunk.js.LICENSE.txt",
+    "static/media/BlogView.css": "/static/media/blog3.f088ccfc.PNG",
+    "static/media/ProjectView.css": "/static/media/netflix.b91e0bf2.PNG",
+    "static/media/TopBarView.css": "/static/media/macbook.1dcb14c7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb07c764.js",
+    "static/js/2.1e807c69.chunk.js",
+    "static/css/main.d771b5b4.chunk.css",
+    "static/js/main.aa56446f.chunk.js"
+  ]
+}

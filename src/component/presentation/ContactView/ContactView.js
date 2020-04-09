@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import FullScreenOverlay from "../FullScreenOverlay/FullScreenOverlay";
-import { FaGithub, FaLinkedinIn, FaFacebookSquare, FaMedium } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaFacebookSquare,
+  FaMedium,
+} from "react-icons/fa";
+import Loader from 'react-loader-spinner';
 import "./ContactView.css";
 
 const ContactView = () => {
@@ -10,6 +16,7 @@ const ContactView = () => {
   const [statusMessage, setStatusMessage] = useState("");
   const [isEmailValid, setIsEmailValid] = useState(true);
   const [isSendButtonVisible, setIsSendButtonVisible] = useState(false);
+  const [isLoaderVisible, setIsLoaderVisible] = useState(false);
 
   const checkAllFieldDone = () => {
     return (
@@ -41,6 +48,7 @@ const ContactView = () => {
       email: email,
       message: message,
     };
+    setIsLoaderVisible(true);
     const CHECK_EMAIL_API = "https://apilayer.net/api/check?";
     const ACCESS_KEY = "2a06540672198270e23371cbce03435a";
 
@@ -61,6 +69,7 @@ const ContactView = () => {
             .then((response) => {
               if (response.status === "success") {
                 setStatusMessage("Your Message has been sent successfully");
+                setIsLoaderVisible(false);
                 const statusTimer = setTimeout(() => {
                   setStatusMessage("");
                   clearTimeout(statusTimer);
@@ -79,13 +88,23 @@ const ContactView = () => {
               }
             });
         } else {
-          setStatusMessage("Email doesnot exists. Please check once before sending.");
+          setStatusMessage(
+            "Email doesnot exists. Please check once before sending."
+          );
           const statusTimer = setTimeout(() => {
             setStatusMessage("");
             clearTimeout(statusTimer);
           }, 5000);
         }
-      });
+      }).catch(error => {
+        setStatusMessage(
+          "Email doesnot exists. Please check once before sending."
+        );
+        const statusTimer = setTimeout(() => {
+          setStatusMessage("");
+          clearTimeout(statusTimer);
+        }, 5000);
+      })
   };
   return (
     <>
@@ -94,6 +113,15 @@ const ContactView = () => {
         <div className="contact_box">
           <h1>CONTACT ME</h1>
           <p>{statusMessage}</p>
+          {isLoaderVisible ? (
+        <Loader
+          type="ThreeDots"
+          color="#00BFFF"
+          height={100}
+          width={100}
+          timeout={3000} //3 secs
+        />
+      ) : null}
           <form id="contact-form">
             <div className="form-group">
               <label htmlFor="name">Name</label>
@@ -150,12 +178,18 @@ const ContactView = () => {
               </a>
             </span>
             <span className="social_icon">
-              <a href="https://www.linkedin.com/in/kumar-ankur-696026b7/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/kumar-ankur-696026b7/"
+                target="_blank"
+              >
                 <FaLinkedinIn />
               </a>
             </span>
             <span className="social_icon">
-              <a href="https://www.facebook.com/profile.php?id=100002341914094" target="_blank">
+              <a
+                href="https://www.facebook.com/profile.php?id=100002341914094"
+                target="_blank"
+              >
                 <FaFacebookSquare />
               </a>
             </span>
